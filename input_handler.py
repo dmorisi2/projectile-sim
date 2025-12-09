@@ -1,3 +1,8 @@
+# input_handler.py
+# ----------------------------------------------
+# Obtains validated velocity and launch angle inputs
+# to use in the motion simulator.
+
 # Welcome
 print("Welcome to my projectile simulator!")
 print("Enter \"exit\" at any time to terminate the program.\n")
