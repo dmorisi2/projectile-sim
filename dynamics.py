@@ -1,12 +1,11 @@
-from config import MASS, GRAVITY, DT
-from drag_models import compute_drag_force
-import math
-
 # dynamics.py
 # ----------------------------------------------
 # Computes accelerations and updates position and
 # velocity using Newton's Laws
 
+from config import MASS, GRAVITY, DT
+from drag_models import compute_drag_force
+import math
 def update_motion(x_old, y_old, vx_old, vy_old):
     speed = math.sqrt((vx_old ** 2) + (vy_old ** 2))
     drag_force = compute_drag_force(speed)
