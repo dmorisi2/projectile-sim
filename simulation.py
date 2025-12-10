@@ -1,9 +1,9 @@
-from dynamics import update_motion
-from config import DT
-
 # simulation.py
 # ----------------------------------------------
 # Runs the full simulation loop.
+
+from dynamics import update_motion
+from config import DT
 def simulate_projectile(x0, y0, vx0, vy0):
     x = x0
     y = y0
